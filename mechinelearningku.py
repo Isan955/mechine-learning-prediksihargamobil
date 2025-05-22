@@ -13,7 +13,7 @@ page = st.sidebar.radio("Navigasi", ["🏠 Beranda", "📄 Dataset", "📊 Visua
 
 if page == "🏠 Beranda":
     st.markdown("<h1 style='text-align: center;'>Prediksi Harga Mobil</h1>", unsafe_allow_html=True)
-    st.image("bmw.jpg", caption="Mobil Mewah BMW", use_container_width=True)
+    st.image("bmw.jpg", use_container_width=True)
     st.markdown("""
     <div style="text-align: justify; font-size: 16px;">
         Aplikasi ini menggunakan model <b>Machine Learning</b> untuk memprediksi harga mobil berdasarkan beberapa parameter teknis. 
